@@ -9,6 +9,8 @@
 %\pdfminorversion=4
 % NOTE: To produce blinded version, replace "0" with "1" below.
 \newcommand{\blind}{0}
+\newcommand{\thetitle}{The radar-boxplot: a boxplot variation for multivariate data}
+
 
 % DON'T change margins - should be 1 inch all around.
 \addtolength{\oddsidemargin}{-.5in}%
@@ -30,8 +32,8 @@
 
 \if1\blind
 {
-  \title{\bf Título}
-  \author{Author 1\thanks{
+  \title{\bf \thetitle }
+  \author{Caio Hamamura\thanks{
     The authors gratefully acknowledge \textit{please remember to list all relevant funding sources in the unblinded version}}\hspace{.2cm}\\
     Department of YYY, University of XXX\\
     and \\
@@ -46,7 +48,7 @@
   \bigskip
   \bigskip
   \begin{center}
-    {\LARGE\bf Título}
+    {\LARGE\bf \thetitle}
 \end{center}
   \medskip
 } \fi
@@ -244,20 +246,7 @@ The quick brown fox jumped over the lazy dog.
 
 
 \bigskip
-\begin{center}
-{\large\bf SUPPLEMENTARY MATERIAL}
-\end{center}
-
-\begin{description}
-
-\item[Title:] Brief description. (file type)
-
-\item[R-package for  MYNEW routine:] R-package ÒMYNEWÓ containing code to perform the diagnostic methods described in the article. The package also contains all datasets used as examples in the article. (GNU zipped tar file)
-
-\item[HIV data set:] Data set used in the illustration of MYNEW method in Section~ 3.2. (.txt file)
-
-\end{description}
-
+The radar-boxplot provides an intuitive way for visualizing classified multivariate
 \section{BibTeX}
 
 We hope you've chosen to use BibTeX!\ If you have, please feel free to use the package natbib with any bibliography style you're comfortable with. The .bst file agsm has been included here for your convenience. 
