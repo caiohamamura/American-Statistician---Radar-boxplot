@@ -79,9 +79,17 @@ Radar-boxplot: a boxplot variation for multivariate classification data%
 
 \section{Introduction}
 \label{sec:intro}
-GAP: As we inscrease our power to collect and analyze data, the datasets become larger, more complex and harder to understand. Visualizing classification multivariate data has been a non trivial task, relying on methods to reduce data dimensionality which may over simplify the problem and fail to represent the whole complexity of the dataset. 
+As we increase our potential to collect and analyze data, the datasets become larger, more complex and harder to understand. Visualizing classification multivariate data has been a non trivial task, relying on methods to reduce data dimensionality which may over simplify the problem and fail to represent the whole complexity. 
 
-In the realm of classification problem, there has been great advances, mainly due to increase in computational power, allowing to use complex machine learning algorithms. These algorithms have provided many advanced for interpreting and classifying data which were meaningless or could only be understood by the human eye. But those algorithms don't solve the problem of understanding how and why the data is meaningful, leaving selection of variables and understanding the problem a background issue. 
+In the realm of classification problem, there has been great advances, mainly due to increase in computational power, allowing to use complex machine learning algorithms. These algorithms have provided means for interpreting and classifying data which were otherwise meaningless or could only be understood by the human eye. But those algorithms don't solve the problem of understanding how and why the data is meaningful, relegating the comprehension of the problem to the background. 
+
+Although practical applications don't really require to fully understand how good results are obtained, for scientific applications that is important to test and purpose solutions based on evidences rather than reach the solution by trial and error. 
+
+Traditionally pattern recognition multivariate data can be visualized by two means: 1. Using multiple boxplots for each variable, discriminating the classes by colors (Pu2012). 2. Plotting a 2D or at most 3D scatterplot reducing the variables by selecting most important variables or transforming them to new vectors of data using methods such as Principal Component Analysis (PCA) and Linear Discriminant Analysis. 
+
+When using multiple boxplots, although it is possible to compare classes for each variable, one loses track of the overall multivariate pattern showed by a class. 
+
+Plotting 2D or 3D scatterplots requires to reduce the problem to at most three variables. Whereas the attribute selection may leave out important variables which would characterize the different classes, reducing dimensionality through PCA or such methods can lead to good separability, but the correspondence from the original variables to the derived components is not straightforward, so it is not possible to really understand how the original variables defines the classes pattern. 
 
 Exemplos de como os dados são analisados hoje em dia.
 
